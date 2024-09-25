@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="printech.bmp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"onclick="closemenu()"></i>
+                </ul>
+                    <i class="fas fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi,I'm <span>Princy</span><br>Form IT World </h1>
+            </div>
+        </div>
+    </div>
+<!--about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="princy.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" >About Me</h1><br>
+                <p>Meet Maya, a recent graduate bursting with enthusiasm for web development. With a degree in computer science under her belt, she’s excited to dive into the tech world. Maya spent her university years honing her skills, mastering HTML, CSS, and JavaScript through hands-on projects and coding bootcamps.<br><br>
+
+                    As a fresher, Maya is eager to learn and adapt. She spends her evenings exploring the latest frameworks, like React and Vue.js, often experimenting with side projects that reflect her growing expertise. Her portfolio, though small, showcases a vibrant personal website, a few interactive web apps, and contributions to open-source projects. <br><br>
+                    
+                    Maya believes in the power of community, regularly attending local meetups and hackathons. She loves connecting with seasoned developers, soaking in their insights, and sharing her fresh perspective. Though she knows she has much to learn, Maya is confident that her passion and determination will guide her on her journey to becoming a skilled web developer. With every line of code, she feels closer to her dream of creating impactful, user-friendly web experiences.</p><br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Exprence')">Ms office</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab"id="skills">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>HTML,CSS,JavaScript
+                        </li>
+                        <li><span>Backend Developer</span><br>
+                        MySQL<br>
+                        Java<br>
+                        Python<br>
+                        PHP<br>
+                        C/C++
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Exprence">
+                    <ul>
+                        <li><span>Excel</span><br>Organize, visualization and analysis of data
+                        </li>
+                        <li><span>PowerPoint</span><br>Presentation
+                        </li>
+                        <li><span>Word</span><br>Document Editing
+                        </li>
+                        <li><span>Adobe Photoshop</span><br>Editing
+                        </li>
+                        <li><span>Canva</span><br>Create Social Media Post
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>2022-Current</span><br> Rajiv Gandhi college of Computer Application and Technology
+                        </li>
+                        <li><span>2022-2025</span><br>
+                        BCA Student</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----services------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Designing</h2>
+                <p><b>Custom Website Design</b>: Tailored to your vision and brand identity.<br><br>
+                   <b> Responsive Design</b>: Websites that look great on all devices—desktops, tablets, and mobiles.<br><br>
+                   <b> Clean and Modern Aesthetics</b>: Focused on user experience and accessibility.<br><br>
+                    <b>Basic SEO Optimization</b>: Helping you get found on search engines.<br><br>
+                    <b>Ongoing Support</b>: I’m here to assist you even after the launch!<br></p><br>
+                <b><a href="#">Learn more</a></b>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Teaching</h2>
+                <ul>
+                <p><b><li>Fresh Perspectives</b>: I bring innovative ideas and a keen eye for detail.</li><br><br>
+                    <b><li>Dedication to Learning</b>: I’m committed to staying updated with the latest trends and technologies.</li><br><br>
+                   <b><li>Personalized Attention</b>: I’ll work closely with you to ensure your vision is realized.</li></p></ul><br><br>
+                <b><a href="#">Learn more</a></b>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Need more help?</h2>
+                <p><b>1.Graphics Design</b>:<br><br>
+                <ul>
+                    <li>Logo Design</li>
+                    <li>Business Card Graphics</li>
+                    <li>Social Media Graphics</li><br><br>
+                </ul>
+                <b>2.Web Development</b>:<br><br>
+                <ul>
+                    <li>Website redesign</li>
+                    <li>Landing Pages</li>
+                    <li>Portfolio Websites</li><br><br>
+                </ul>
+                <b>3.Data Entry & Analysis</b>:<br><br>
+                <ul>
+                    <li>Data Entry Services</li>
+                    <li>Basic Data visualization</li>
+                    <li>Excel Spreadsheet</li>
+                </ul></p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1><br><br>
+        <div class="work-list">
+            <div class="work">
+                <img src="offer letter code alpha.jpg" alt="girl">
+                <div class="layer">
+                    <h3>Intership</h3>
+                    <p></p>
+                    <a href=""><i class "fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="certification fake.jpg" alt="girl">
+                <div class="layer">
+                    <h3>Certification</h3>
+                    <p></p>
+                    <a href=""><i class "fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="interstudio certification.jpg" alt="girl">
+                <div class="layer">
+                    <h3>Certification</h3>
+                    <p></p> <a href=""><i class "fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">see more</a>
+    </div>
+</div>
+
+<!---contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i>princijain335@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>7999817073</p>
+            <div class="social-icons">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/princia11y/portfolio/upload/main"><i class="fa-brands fa-github"></i> </a>
+                </div>
+            <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text"name="Name"placeholder="Your Name" required>
+                    <input type="email"name="Email"placeholder="Your Email"required>
+                    <textarea name="Message"rows="6"placeholder="Your Message..."></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div><!----
+    <div class="copyright">
+        <p> copyright<i class="fas fa-heart"></i></p>
+    </div>-->
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab (tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents ){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemen=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function openmenu(){
+        sidemen.style.right="-200px";
+    }
+</script>
+</body>
+</html>
